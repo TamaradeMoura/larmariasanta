@@ -52,31 +52,6 @@
     font-family: 'Roboto Slab', serif;
 }
 
-.lar {
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-    padding-bottom: 15%;
-}
-
-.hist-lar {
-    padding-left: 5%;
-}
-
-.titulo-lar {
-    font-family: 'Roboto Slab', serif;
-    text-decoration: underline;
-    text-underline-offset: 15px;
-    font-size: 30px;
-    color: #361b1b;
-}
-
-.text-lar {
-    width: 50%;
-    margin-top: 10%;
-    text-align: justify;
-}
-
 .gallery-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

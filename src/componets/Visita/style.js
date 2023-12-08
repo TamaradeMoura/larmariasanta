@@ -101,12 +101,13 @@ export const Button2 = styled.button`
     padding: 10px 20px;
     margin-top: 10%;
     border: none;
-    background-color: #09cc3a ;
-    color: #fff;
+    background-color: #09cc3a;
+    color: white;
     font-weight: bold;
     font-size: 16px;
     cursor: pointer;
     font-family: 'Roboto Slab', serif;
+    text-decoration: none;
 
     @media(max-width: 640px) {
         border-radius: 20px;

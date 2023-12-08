@@ -20,7 +20,6 @@ export const HeaderLinks = styled.ul`
 
     a {
         padding-top: 70px;
-        color: black;
         text-decoration: none;
         display: block;
         color:  #361b1b;

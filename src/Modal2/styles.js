@@ -14,7 +14,7 @@ export const Div = styled.div`
         position: fixed;
         background-color: #fff;
         width: 60%;
-        height: 65%;
+        height: 70%;
         top: 10%;
         left: 20%;
     `
@@ -88,14 +88,14 @@ export const Div = styled.div`
         margin-top: 2%;
         background-color: #8f7d4f;
         color: #fff;
-        width: 110px;
-        height: 40px;
+        width: 120px;
+        height: 50px;
         border: none;
         border-radius: 50px;
         font-family: 'Roboto Slab', serif;
         cursor: pointer;
 
-    button:hover {
-        background-color: #dbbf78;
+        :hover {
+            background-color: #dbbf78;
     }
     `

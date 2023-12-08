@@ -22,6 +22,7 @@ import EstiloGlobal, { DivBotao1, DivBotao2 } from './styles';
 import Header2 from './componets/Cabecalho2';
 import Hero from './componets/Hero';
 import Visita from './componets/Visita';
+import Lar from './componets/Historia';
 
 
 
@@ -56,24 +57,7 @@ function App() {
       <Header2 />
       <Hero  />
       <Visita />
-      <section>
-        <div className='lar'>
-          <img src='https://via.placeholder.com/500x720' alt="imagem em branco" />
-          <div className='hist-lar'>
-            <h1 className='titulo-lar'>Nossa História</h1>
-            <p className='text-lar'>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
-              Nam eveniet asperiores porro nostrum, <br></br>
-              vitae fugit praesentium quod tenetur, debitis laudantium culpa assumenda odio ab, <br></br>
-              a veritatis consequuntur nobis rerum pariatur!
-            </p>
-            <button className='btn1 btn-btn1'>Saiba Mais</button>
-            <button className='btn2 btn-btn1'>
-              <FontAwesomeIcon icon={faWhatsapp} transform="left-5" />
-              Entre em contato</button>
-          </div>
-        </div>
-      </section>
+      <Lar/>
       <section>
         <div className='gallery-grid'>
           <div className='grid-item'>
@@ -166,7 +150,7 @@ function App() {
         </div>
       </section>
       <section>
-        <div className='infos'>
+        <div className='infos' id='infos'>
           <h2>Informação sobre Hospedagem</h2>
         </div>
         <div className='row-infos'>
