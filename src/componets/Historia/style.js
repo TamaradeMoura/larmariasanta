@@ -7,7 +7,9 @@ export const Frente = styled.div`
     padding-bottom: 15%;
 
     img {
+        margin-top: 17%;
         width: 500px;
+        margin-left: 5%;
     }
 `
 
@@ -24,7 +26,7 @@ export const Historia = styled.div`
 
     p {
         width: 50%;
-        margin-top: 10%;
+        margin-top: 5%;
         text-align: justify;
     }
 `
@@ -52,7 +54,7 @@ export const Button1 = styled.button`
 export const Button2 = styled.button`
     border-radius: 20px;
     padding: 10px 20px;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 5px;
     border: none;
     background-color: #09cc3a;

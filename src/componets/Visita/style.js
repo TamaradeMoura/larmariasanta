@@ -2,6 +2,8 @@ import styled from "styled-components";
 import ImagemLogo from '../Cabecalho2/image/logomarca2.png'
 
 export const Virtual = styled.section`
+    display: block;
+    text-align: center;
     background-image: url(${ImagemLogo});
     background-size: 620px;
     background-repeat: no-repeat;
@@ -49,13 +51,6 @@ export const TextVisita = styled.div`
     }
 `
 
-export const ImgVisita = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 8%;
-`
-
 export const Buttons = styled.div`
     display: grid;
     grid-column: 1fr ;
@@ -99,6 +94,7 @@ export const Button1 = styled.button`
 export const Button2 = styled.button`
     border-radius: 20px;
     padding: 10px 20px;
+    width: 200px;
     margin-top: 10%;
     border: none;
     background-color: #09cc3a;
@@ -116,8 +112,6 @@ export const Button2 = styled.button`
     }
 `
 export const Frame = styled.iframe`
-    position: relative;
-    left: 31%;
     width: 720px; 
     height: 420px;
 

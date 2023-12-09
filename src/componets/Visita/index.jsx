@@ -12,7 +12,7 @@ function Visita(){
 
 
     return (
-        <Virtual id='visitaVirtual'>
+        <Virtual id='visitavirtual'>
           <h1>Visita Virtual</h1>
         <TextVisita>
           <p>Conheça a nossa estrutura</p>

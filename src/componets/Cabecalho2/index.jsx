@@ -49,10 +49,10 @@ function Header2() {
               <a href="#diferenciais">Diferenciais</a>
             </li>
             <li>
-              <a href="#">Visita virtual</a>
+              <a href="#visitavirtual">Visita virtual</a>
             </li>
             <li>
-              <a href="#">O Lar</a>
+              <a href="#lar">O Lar</a>
             </li>
             <li>
               <a href="#">Serviço</a>

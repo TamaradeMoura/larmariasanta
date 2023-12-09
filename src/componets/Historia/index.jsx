@@ -13,14 +13,25 @@ function Lar() {
     return (
         <section id='lar'>
         <Frente>
+          <div>
           <img src={FrenteLar} alt="imagem de apresentação" />
+          </div>
           <Historia>
             <h1>Nossa História</h1>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
-              Nam eveniet asperiores porro nostrum, <br></br>
-              vitae fugit praesentium quod tenetur, debitis laudantium culpa assumenda odio ab, <br></br>
-              a veritatis consequuntur nobis rerum pariatur!
+              O lar para idosos Maria Santa nasceu 
+              com o propósito<br></br> 
+              de um cuidado mais humanizado.<br></br>
+              As duas sócias cujo pai e mãe precisavam 
+              de um lugar para ficar
+              decidiram unir forças e abrir um lar para os cuidados deles.<br></br>
+              Com este intuito o lar Maria Santa foi criado, 
+              nome dado em homenagem a falecida mãe de uma das sócias.<br></br>
+              Por necessidade as duas decidiram abrir o espaço para cuidar de seus pais.<br></br>
+              Proporcionando a eles espaços adaptados, cuidadores, técnicos, nutricionista, fisioterapeuta
+              e acompanhamento médico.<br></br>
+              Tudo com muito amor, cuidados de higiene e alimentação.<br></br>
+              O lar Maria Santa é extremamente grato pela confiança das famílias e honra seu compromisso com dignidade e ética.
             </p>
             <Button1 onClick={() => setOpenModal2(true)}>Saiba Mais</Button1>
             <Modal2 isOpen={openModal2} setModalOpen={() => setOpenModal2(!openModal2)} />

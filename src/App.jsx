@@ -23,6 +23,7 @@ import Header2 from './componets/Cabecalho2';
 import Hero from './componets/Hero';
 import Visita from './componets/Visita';
 import Lar from './componets/Historia';
+import Gallery from './componets/gallery';
 
 
 
@@ -58,43 +59,7 @@ function App() {
       <Hero  />
       <Visita />
       <Lar/>
-      <section>
-        <div className='gallery-grid'>
-          <div className='grid-item'>
-            <img src='https://via.placeholder.com/460x255' alt='imagem em branco'></img>
-          </div>
-          <div className='grid-item'>
-            <img src='https://via.placeholder.com/460x255' alt='imagem em branco'></img>
-          </div>
-          <div className='grid-item'>
-            <img src='https://via.placeholder.com/460x255' alt='imagem em branco'></img>
-          </div>
-          <div className='grid-item'>
-            <img src='https://via.placeholder.com/460x255' alt='imagem em branco'></img>
-          </div>
-          <div className='grid-item'>
-            <img src='https://via.placeholder.com/460x255' alt='imagem em branco'></img>
-          </div>
-          <div className='grid-item'>
-            <img src='https://via.placeholder.com/460x255' alt='imagem em branco'></img>
-          </div>
-          <div className='grid-item'>
-            <img src='https://via.placeholder.com/460x255' alt='imagem em branco'></img>
-          </div>
-          <div className='grid-item'>
-            <img src='https://via.placeholder.com/460x255' alt='imagem em branco'></img>
-          </div>
-          <div className='grid-item'>
-            <img src='https://via.placeholder.com/460x255' alt='imagem em branco'></img>
-          </div>
-          <div className='grid-item'>
-            <img src='https://via.placeholder.com/460x255' alt='imagem em branco'></img>
-          </div>
-          <div className='grid-item'>
-            <img src='https://via.placeholder.com/460x255' alt='imagem em branco'></img>
-          </div>
-        </div>
-      </section>
+      <Gallery/>
       <section id='servicos'>
         <div className='titulo'>
           <h1>Serviços</h1>
