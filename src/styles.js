@@ -7,6 +7,11 @@ import { createGlobalStyle } from "styled-components";
         box-sizing: border-box;
         padding: 0;
         list-style: none;
+        
+
+        @media(max-width: 640px) {
+            overflow-x: hidden;
+        }
 
         .carousel {
             cursor: grab;

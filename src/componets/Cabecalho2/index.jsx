@@ -48,7 +48,7 @@ function Header2() {
         )}
           <HeaderLinks>
               <IgmLogo src={imagemLogo} alt="Logo do Lar Maria Santa" />
-            <li>
+            <li className='nav'>
               <a href="#diferenciais">Diferenciais</a>
             </li>
             <li>
