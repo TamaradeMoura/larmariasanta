@@ -24,48 +24,20 @@ function Gallery() {
         <section>
             <Modal isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)} />
         <Galeria>
-          <div>
             <img onClick={() => setOpenModal(true)} src={sala1} alt='sala de estar'></img>
-          </div>
-          <div>
             <img src={sala2} alt='sala de estar'></img>
-          </div>
-          <div>
             <img src={sala3} alt='sala de estar'></img>
-          </div>
-          <div>
             <img src={quadruplo1} alt='quarto quadruplo'></img>
-          </div>
-          <div>
             <img src={quadruplo2} alt='quarto quadruplo'></img>
-          </div>
-          <div>
             <img src={quadruplo3} alt='quarto quadruplo'></img>
-          </div>
-          <div>
             <img src={triplo1} alt='quarto triplo'></img>
-          </div>
-          <div>
             <img src={triplo2} alt='quarto triplo'></img>
-          </div>
-          <div>
             <img src={triplo3} alt='quarto triplo'></img>
-          </div>
-          <div>
             <img src={quarto1} alt='quarto individual'></img>
-          </div>
-          <div>
             <img src={quarto2}  alt='quarto individual'></img>
-          </div>
-          <div>
             <img src={jantar1}  alt='sala de refeições'></img>
-          </div>
-          <div>
             <img src={jantar2}  alt='sala de refeições'></img>
-          </div>
-          <div>
             <img src={jantar3}  alt='sala de refeições'></img>
-          </div>
         </Galeria>
       </section>
     )

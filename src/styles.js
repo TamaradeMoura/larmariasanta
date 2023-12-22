@@ -7,7 +7,8 @@ import { createGlobalStyle } from "styled-components";
         box-sizing: border-box;
         padding: 0;
         list-style: none;
-        
+
+
         .carousel {
             cursor: grab;
             overflow: hidden;

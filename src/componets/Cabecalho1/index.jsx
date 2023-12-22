@@ -18,10 +18,10 @@ function Header1() {
         </h1>
         <h2>(51) 3442.0638 (51) 98966.2711</h2>
         <BotaoModal1  className='botao1' onClick={() => setOpenModal1(true)}>
-          Trabalhe conosco |</BotaoModal1>
+          | Trabalhe conosco |</BotaoModal1>
         <Modal1 isOpen={openModal1} setModalOpen={() => setOpenModal1(!openModal1)} />
         <BotaoModal2 onClick={() => setOpenModal2(true)}>
-          Entre em contato</BotaoModal2>
+          | Entre em contato |</BotaoModal2>
         <Modal2 isOpen={openModal2} setModalOpen={() => setOpenModal2(!openModal2)} />
     </Cabecalho>
 

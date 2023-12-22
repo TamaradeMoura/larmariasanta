@@ -12,8 +12,13 @@ export const Cabecalho = styled.header`
     padding-bottom: 5px;
 
     @media (max-width: 640px) {
+        display: block;   
+    }
+
+    @media (min-width: 640px) and (max-width: 1023px) {
         display: block;
-        
+        padding-left: 25%;
+        max-width: 100%;
     }
 
 
@@ -39,14 +44,11 @@ export const Cabecalho = styled.header`
 `
 
 export const BotaoModal1 = styled.button`
-    position: relative;
-    left: 9%;
     background-color: #361b1b;
     color: #fff;
     border: none;
     font-family: 'Roboto Slab', serif;
     font-size: 19px;
-    margin-top: -5px;
 
     @media (max-width: 640px) {
         margin-left: -4%;
@@ -60,7 +62,6 @@ export const BotaoModal2 = styled.button`
     border: none;
     font-family: 'Roboto Slab', serif;
     font-size: 19px;
-    margin-top: -5px;
     
     @media (max-width: 640px) {
         margin-left: 12%;
