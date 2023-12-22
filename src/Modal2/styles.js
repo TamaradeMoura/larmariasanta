@@ -8,6 +8,7 @@ export const Div = styled.div`
     right: 0;
     background-color: rgb(0,0,0, 0.7);
     z-index: 500;
+
     `
 
     export const Modal = styled.form`
@@ -84,7 +85,8 @@ export const Div = styled.div`
         }
     `
     export const Botao = styled.button`
-        margin-left: 2%;
+        float: left;
+        margin-left: 35px;
         margin-top: 2%;
         background-color: #8f7d4f;
         color: #fff;
@@ -98,4 +100,12 @@ export const Div = styled.div`
         :hover {
             background-color: #dbbf78;
     }
+    `
+
+    export const BotaoFechar =  styled.button`
+        float: right;
+        background-color: #fff;
+        font-size: 25px;
+        border: none;
+        margin-right: 10px;
     `

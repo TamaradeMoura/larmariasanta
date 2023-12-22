@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
-import { Div, Modal, Form, Botao } from './styles';
+import { Div, Modal, Form, Botao, BotaoFechar } from './styles';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-export default function Modal2({isOpen}) {
+export default function Modal2({isOpen, setModalOpen}) {
 
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
@@ -38,6 +38,7 @@ export default function Modal2({isOpen}) {
         return (
             <Div>
                 <Modal onSubmit={sendEmail}>
+                    <BotaoFechar onClick={setModalOpen}>X</BotaoFechar>
                     <Form>
                     <h2>Informação sobre Hospedagem</h2>
                     <h4>Preencha os campos abaixo para entrarmos em contato</h4>

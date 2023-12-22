@@ -8,8 +8,7 @@ export const Virtual = styled.section`
     background-size: 620px;
     background-repeat: no-repeat;
     background-position: right;
-    background-color: #8f7d4f;
-    linear-gradient:(185deg, rgb(204, 161, 62), rgb(166, 137, 101));
+    background-color: #7e6a3a;
     margin-top: 20%;    
 
     h1 {
@@ -22,7 +21,7 @@ export const Virtual = styled.section`
         font-family: 'Roboto Slab', serif;
         text-decoration: underline;
         text-underline-offset: 20px;
-    }
+        }
 
 
     @media(max-width: 640px) {
@@ -38,6 +37,21 @@ export const Virtual = styled.section`
         background-position: right;
         background-color: #8f7d4f;
         margin-top: 20%;
+
+    animation: appear 2s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 10%;
+
+    @keyframes appear {
+        from {
+            opacity: 0;
+            translate: -100vw 0;
+        }
+    
+        to {
+            opacity: 1;
+            translate: 0 0;
+        }
 ` 
 export const TextVisita = styled.div`
     display: block;
@@ -69,6 +83,21 @@ export const Buttons = styled.div`
         margin-top: 2%;
         padding-bottom: 5%;
     }
+
+    animation: appear 2s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 10%;
+
+    @keyframes appear {
+        from {
+            opacity: 0;
+            translate: -100vw 0;
+        }
+    
+        to {
+            opacity: 1;
+            translate: 0 0;
+        }
 `
 
 export const Button1 = styled.button`
@@ -115,7 +144,6 @@ export const Frame = styled.iframe`
     width: 720px; 
     height: 420px;
 
-
     @media(max-width: 640px) {
         left: 4%;
         width: 350px; 
@@ -126,5 +154,21 @@ export const Frame = styled.iframe`
         position: static;
         width: 120px; 
         height: 200px;
+    }
+
+    animation: appear 2s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 10%;
+
+    @keyframes appear {
+        from {
+            opacity: 0;
+            translate: -100vw 0;
+        }
+    
+        to {
+            opacity: 1;
+            translate: 0 0;
+        }
     
 `

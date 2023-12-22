@@ -11,6 +11,30 @@ export const Frente = styled.div`
         width: 500px;
         margin-left: 5%;
     }
+
+    @media(max-width: 640px) {
+        display: block;
+
+        img {
+            width: 375px;
+            margin-left: 0;
+        }
+    }
+
+    animation: appear 6s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 20%;
+
+    @keyframes appear {
+        from {
+            opacity: 0;
+            translate: -100vw 0;
+        }
+    
+        to {
+            opacity: 1;
+            translate: 0 0;
+        }
 `
 
 export const Historia = styled.div`
@@ -29,6 +53,16 @@ export const Historia = styled.div`
         margin-top: 5%;
         text-align: justify;
     }
+
+    @media(max-width: 640px) {
+        h1 { 
+            margin-left: 16%;
+        }
+
+        p {
+            margin-left: 20%;
+        }
+    
 `
 
 export const Button1 = styled.button`
@@ -46,8 +80,9 @@ export const Button1 = styled.button`
 
     @media(max-width: 640px) {
         border-radius: 20px;
-        width: 220%;
+        width: 90%;
         height: 90%;
+        margin-left: 5%
     }
 `
 
@@ -67,6 +102,7 @@ export const Button2 = styled.button`
 
     @media(max-width: 640px) {
         border-radius: 20px;
-        width: 220%;
+        width: 90%;
         height: 90%;
+        margin-left: 5%;
    `

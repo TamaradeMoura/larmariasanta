@@ -1,31 +1,31 @@
 import { Galeria } from "./styles";
-import sala1 from "./images/sala1.png";
-import sala2 from "./images/sala2.png";
-import sala3 from "./images/sala3.png";
-import jantar1 from "./images/jantar1.png";
-import jantar2 from "./images/jantar2.png";
-import jantar3 from "./images/jantar3.png";
-import quarto1 from "./images/quarto1.png";
-import quarto2 from "./images/quarto2.png";
-import triplo1 from "./images/triplo1.png";
-import triplo2 from "./images/triplo2.png";
-import triplo3 from "./images/triplo3.png";
-import quadruplo1 from "./images/quadruplo1.png";
-import quadruplo2 from "./images/quadruplo2.png";
-import quadruplo3 from "./images/quadruplo3.png";
+import sala1 from './images/sala1.jpg';
+import sala2 from './images/sala2.jpg';
+import sala3 from './images/sala3.jpg';
+import jantar1 from './images/jantar1.jpg';
+import jantar2 from './images/jantar2.jpg'
+import jantar3 from './images/jantar3.jpg';
+import quarto1 from './images/quarto1.jpg';
+import quarto2 from './images/quarto2.jpg';
+import triplo1 from './images/triplo1.jpg';
+import triplo2 from './images/triplo2.jpg';
+import triplo3 from './images/triplo3.jpg';
+import quadruplo1 from './images/quadruplo1.jpg';
+import quadruplo2 from './images/quadruplo2.jpg';
+import quadruplo3 from './images/quadruplo3.jpg';
 import { useState } from 'react';
-import Modal2 from "../../Modal2/modal2";
+import Modal from "./modals/modal1";
 
 
 function Gallery() {
-    const [openModal2, setOpenModal2] = useState(false)
+    const [openModal, setOpenModal] = useState(false)
 
     return (
         <section>
-            <Modal2 isOpen={openModal2} setModalOpen={() => setOpenModal2(!openModal2)} />
+            <Modal isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)} />
         <Galeria>
           <div>
-            <img onClick={() => setOpenModal2(true)} src={sala1} alt='sala de estar'></img>
+            <img onClick={() => setOpenModal(true)} src={sala1} alt='sala de estar'></img>
           </div>
           <div>
             <img src={sala2} alt='sala de estar'></img>

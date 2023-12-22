@@ -107,3 +107,11 @@ export const Div = styled.div`
         margin-left: 2%;
         cursor: pointer;
 `
+
+    export const BotaoFechar =  styled.button`
+    float: right;
+    background-color: #fff;
+    font-size: 25px;
+    border: none;
+    margin-right: 10px;
+`

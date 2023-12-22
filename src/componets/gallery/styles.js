@@ -18,4 +18,32 @@ export const Galeria = styled.div`
         height: 280px;
         cursor: pointer;
     }
+
+    @media(max-width: 640px) {
+        margin-left: 0;
+        display: block;
+
+        img {
+            width: 375px;
+            padding-top: 5px;
+        }
+
+    }
+
+
+    animation: appear 6s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 10%;
+
+    @keyframes appear {
+        from {
+            opacity: 0;
+            translate: -100vw 0;
+        }
+    
+        to {
+            opacity: 1;
+            translate: 0 0;
+        }
+
 `

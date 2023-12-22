@@ -22,24 +22,27 @@ function Header2() {
         <BotaoToggle
           onClick={setToggle}
           className='btn btn- mb-5'
-        ><span className='navbar-toggler-icon'></span></BotaoToggle>
+        ><span className='navbar-toggler-icon dropdown-toggle'></span></BotaoToggle>
         </DivBotao>
         {toggle && (
           <Menu className='list-group nav'>
             <li className='list-group-item'>
-                <a href="" className='nav-link'>Diferenciais</a>
+                <a href="#diferenciais" className='nav-link'>Diferenciais</a>
             </li>
             <li className='list-group-item'>
-                <a href="" className='nav-link'>Visita Virtual</a>
+                <a href="#visitavirtual" className='nav-link'>Visita Virtual</a>
             </li>
             <li className='list-group-item'>
-                <a href="" className='nav-link'>O lar</a>
+                <a href="#lar" className='nav-link'>O lar</a>
             </li>
             <li className='list-group-item'>
-                <a href="" className='nav-link'>Serviços</a>
+                <a href="#servicos" className='nav-link'>Serviços</a>
             </li>
             <li className='list-group-item'>
-              <a href="" className='nav-link'>Contatos</a>
+              <a href="#maps" className='nav-link'>Localização</a>
+            </li>
+            <li className='list-group-item'>
+              <a href="#infos" className='nav-link'>Contatos</a>
             </li>
           </Menu>
         )}
@@ -55,13 +58,13 @@ function Header2() {
               <a href="#lar">O Lar</a>
             </li>
             <li>
-              <a href="#">Serviço</a>
+              <a href="#servicos">Serviço</a>
             </li>
             <li>
-              <a href="#">Localização</a>
+              <a href="#maps">Localização</a>
             </li>
             <li>
-              <a href="#">Contatos</a>
+              <a href="#infos">Contatos</a>
             </li>
           </HeaderLinks>
         </nav>

@@ -26,7 +26,7 @@ export const CardHero = styled.div`
     width: 400px;
     height: 600px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-
+    
     h2 {
         text-align: center;
         padding-top: 20px;
@@ -48,6 +48,10 @@ export const CardHero = styled.div`
         font-weight: 300;
     }
 
+    .icons {
+        color: #ccae62;
+    }
+
     @media(max-width: 640px) {
         width: 80%;
         height: 50%;
@@ -55,7 +59,22 @@ export const CardHero = styled.div`
         margin-top: 20px;
         }
 
-   
+    animation: appear -6s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 20%;
+
+    @keyframes appear {
+        from {
+            opacity: 0;
+            translate: -100vw 0;
+        }
+    
+        to {
+            opacity: 1;
+            translate: 0 0;
+        }
+
+        
 `
 
 export const Img = styled.div`
