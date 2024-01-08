@@ -100,26 +100,6 @@ export const Buttons = styled.div`
         }
 `
 
-export const Button1 = styled.button`
-    border-radius: 20px;
-    padding: 10px 20px;
-    margin-top: 5%;
-    border: none;
-    background-color: #ccae62 ;
-    color: #fff;
-    font-weight: bold;
-    font-size: 16px;
-    cursor: pointer;
-    font-family: 'Roboto Slab', serif;
-    text-aling: center;
-
-    @media(max-width: 640px) {
-        border-radius: 20px;
-        width: 220%;
-        height: 90%;
-    }
-`
-
 export const Button2 = styled.button`
     border-radius: 20px;
     padding: 10px 20px;

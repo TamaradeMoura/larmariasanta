@@ -2,16 +2,18 @@ import styled from "styled-components";
 
 export const Informacao = styled.div`
     display: flex;
-    justify-content: left;
-    margin-left: 7%;
-    margin-top: 3%;
-    font-family: 'Roboto Slab', serif;
+    text-aling: center;
     text-decoration: underline;
     text-underline-offset: 15px;
+    margin-left: 15%;
+    margin-top: 3%;
+    font-family: 'Roboto Slab', serif;
 
     
     @media(max-width: 640px) {
-        text-decoration: none;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        margin-left: 25%;
 ` 
 
 export const RowInfos =styled.div`
@@ -21,7 +23,11 @@ export const RowInfos =styled.div`
 
     
     @media(max-width: 640px) {
-        margin-left: 1%;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 `
 
 export const CardInfos = styled.div`
@@ -33,6 +39,11 @@ export const CardInfos = styled.div`
     width: 700px;
     height: 600px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+
+    @media(max-width: 640px) {
+        width: 300px;
+        height: 560px;  
+    }
 `
 
 export const CardTitle = styled.div`
@@ -42,6 +53,7 @@ export const CardTitle = styled.div`
     
     @media(max-width: 640px) {
         padding-left: 0;
+    }
 `
 
 export const CardElement = styled.div`
@@ -58,7 +70,10 @@ export const CardElement = styled.div`
         outline: none;
         padding-left: 5px;
         font-family: 'Roboto Slab', serif;
-        
+    }
+
+    .formulario:focus {
+        border: 2px solid #555;
     }
 
     .msg {
@@ -70,12 +85,19 @@ export const CardElement = styled.div`
         outline: none;
         padding-left: 5px;
         font-family: 'Roboto Slab', serif;
-        
+
+        @media(max-width: 640px) {
+            height: 150px;  
+        }
+    }
+
+    .msg:focus {
+        border: 2px solid #555;
     }
     
     button {
         border-radius: 20px;
-        margin-top: -5%;
+        margin-top: -1%;
         padding: 10px 20px;
         border: none;
         background-color: #ccae62 ;
@@ -87,30 +109,22 @@ export const CardElement = styled.div`
         width: 30%;
 
         @media(max-width: 640px) {
-            margin-top: 75%;
-            margin-left: -9%;
+            margin-top: 1%;
+            margin-left: 2%;
             padding: 5px 5px;
             width: 150px;
-            
         }
-
     }
      
     Button:hover {
         background-color:#dbbf78;
     }
-
-    @media(max-width: 640px) {
-        width: 255px;
-        height: 55px;
-        
-    }
 `
 
 export const Contact = styled.div`
-    position: relative;
-    bottom: 40px;
-    left: 5%;
+    display: block;
+    margin-top: -44px;
+    margin-left: 3%;
     font-family: 'Roboto Slab', serif;
 
     .title-contact {
@@ -119,8 +133,10 @@ export const Contact = styled.div`
     }
 
     @media(max-width: 640px) {
-        left: -335px;
-        top: 650px;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 `
 
@@ -161,8 +177,8 @@ export const Infos2 = styled.div`
     text-underline-offset: 15px;
 
     @media(max-width: 640px) {
-        position: relative;
-        top: 580px;
+        margin-top: 40px;
+        margin-left: 25%;
     }
 `
 
@@ -205,8 +221,7 @@ export const RowForm = styled.div`
     }
 
     @media(max-width: 640px) {
-        position: relative;
-        top: 600px;
+        margin-top: 30px;
         margin-left: 1%;
     }
 `

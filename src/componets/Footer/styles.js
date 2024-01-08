@@ -20,7 +20,6 @@ export const Rodape = styled.div`
     }
 
     @media(max-width: 640px) {
-        position: relative;
-        top: 600px;
+        margin-top: 60px;
     }
 `

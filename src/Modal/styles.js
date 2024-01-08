@@ -7,7 +7,7 @@ export const Div = styled.div`
     left: 0;
     right: 0;
     background-color: rgb(0,0,0, 0.7);
-    z-index: 2;
+    z-index: 500;
     `
 
     export const Modal = styled.form`
@@ -18,6 +18,13 @@ export const Div = styled.div`
         top: 1%;
         left: 25%;
         overflow: scroll;
+
+        @media(max-width: 640px) {
+            width: 80%;
+            height: 100%;
+            left: 40px;
+            padding-bottom: 5px;
+        }
     `
 
     export const Form1 = styled.div`
@@ -92,6 +99,10 @@ export const Div = styled.div`
     button:hover {
         background-color: #dbbf78;
     }
+
+    @media(max-width: 640px) {
+        margin-bottom: 2%;
+    }
     `
 
     export const Container = styled.div`
@@ -102,11 +113,6 @@ export const Div = styled.div`
         display: flex;
         justify-content: center;
     `
-
-    export const Botao1 = styled.input`
-        margin-left: 2%;
-        cursor: pointer;
-`
 
     export const BotaoFechar =  styled.button`
     float: right;

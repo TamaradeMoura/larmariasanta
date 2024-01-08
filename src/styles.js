@@ -8,7 +8,6 @@ import { createGlobalStyle } from "styled-components";
         padding: 0;
         list-style: none;
 
-
         .carousel {
             cursor: grab;
             overflow: hidden;

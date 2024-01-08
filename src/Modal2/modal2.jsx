@@ -40,8 +40,8 @@ export default function Modal2({isOpen, setModalOpen}) {
                 <Modal onSubmit={sendEmail}>
                     <BotaoFechar onClick={setModalOpen}>X</BotaoFechar>
                     <Form>
-                    <h2>Informação sobre Hospedagem</h2>
-                    <h4>Preencha os campos abaixo para entrarmos em contato</h4>
+                    <h4>Informações sobre hospedagem</h4>
+                    <h5>Preencha os campos abaixo para entrarmos em contato</h5>
                         <label>Nome*</label>
                         <input type="text" onChange={(e) => setName(e.target.value)} value={name}/>
                         <label>Email*</label>

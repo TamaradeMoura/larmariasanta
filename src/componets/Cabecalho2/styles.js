@@ -13,21 +13,26 @@ export const HeaderLinks = styled.ul`
         font-weight: bold;
         color:  #361b1b;
         font-family: 'Roboto Slab', serif;
-
-        
     }
-
-
+    
+    
     a {
         padding-top: 70px;
         text-decoration: none;
         display: block;
         color:  #361b1b;
         text-align: center;
-
+        
         @media(max-width: 640px) {
-            visibility: hidden;
+            padding-top: 5px;
         }
+    }
+    
+    @media(max-width: 640px) {
+        display: flex;
+        flex-direction: column;
+        margin-top: -50%;
+        visibility: hidden;
     }
 
 `
@@ -38,17 +43,6 @@ export const IgmLogo = styled.img`
 
     @media(max-width: 640px) {
        visibility: hidden;
-    }
-
-    @media (min-width: 641px) and (max-width: 1024px) {
-        position: fixed;
-        margin-right: 33%;
-        margin-top: 3%;
-        z-index: -2;
-        top: 4%;
-        width: 110px;
-        max-width: 10%;
-
     }
 `
 
@@ -74,13 +68,7 @@ export const DivBotao = styled.div`
     @media(max-width: 640px) {
         visibility: visible;
         margin-top: 20%;
-    }
-
-    @media (min-width: 641px) and (max-width: 1024px) {
-        visibility: visible;
-        margin-top: 20%;
-    }
-    
+    }  
 `
 
 export const Menu = styled.ul`

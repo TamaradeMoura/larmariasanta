@@ -22,14 +22,14 @@ export const CardHero = styled.div`
     background-color: #fff;
     padding: 30px;
     margin: 20px;
-    margin-top: -9%;
+    margin-top: -10%;
     width: 400px;
     height: 600px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     
     h2 {
         text-align: center;
-        padding-top: 20px;
+        padding-top: 10px;
         text-transform: uppercase;
         text-decoration: underline;
         text-underline-offset: 5px;
@@ -40,7 +40,7 @@ export const CardHero = styled.div`
 
     p {
         text-align: center;
-        padding-top: 20px;
+        padding-top: 10px;
         font-size: large;
         line-height: 2.0;
         color:  #361b1b;
@@ -50,6 +50,11 @@ export const CardHero = styled.div`
 
     .icons {
         color: #ccae62;
+
+        @media(max-width: 640px) {
+            position: relative;
+            right: 50px;
+            }
     }
 
     @media(max-width: 640px) {

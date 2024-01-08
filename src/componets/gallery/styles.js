@@ -17,7 +17,8 @@ export const Galeria = styled.div`
     }
 
     @media(max-width: 640px) {
-        margin-left: 0;
+        padding-left: 0;
+        margin-left: -5px;
         display: block;
 
         img {
