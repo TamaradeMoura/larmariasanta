@@ -23,6 +23,10 @@ export const Div = styled.div`
             height: 87%;
             left: 20px;
         }
+
+        @media(min-width: 641px) and (max-width: 1023px) {
+            height: 55%;
+        }
     `
 
     export const Form = styled.div`

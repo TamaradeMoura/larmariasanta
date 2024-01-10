@@ -51,6 +51,20 @@ export const Frente = styled.div`
 export const Historia = styled.div`
     padding-left: 5%;
 
+    @media (min-width: 641px) and (max-width: 1023px) {
+        display: block;
+         
+        h1 {
+            text-align: center;
+            padding-top: 15px;
+         } 
+
+        p {
+            text-align: center;
+            padding-top: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
     
     h1 {
         font-family: 'Roboto Slab', serif;
@@ -64,6 +78,7 @@ export const Historia = styled.div`
         width: 50%;
         margin-top: 5%;
     }
+    
     @media(max-width: 640px) {
         h1 { 
             margin-left: 16%;
@@ -73,17 +88,6 @@ export const Historia = styled.div`
             margin-left: 20%;
         }       
         
-        @media (min-width: 641px) and (max-width: 1023px) {
-            display: block;
-             h1 {
-                text-align: center;
-                padding-top: 15px;
-             } 
-    
-            p {
-                text-align: center;
-                padding-top: 25px;
-            }
         `
         
         export const Button2 = styled.button`

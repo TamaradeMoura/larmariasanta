@@ -25,6 +25,10 @@ export const Div = styled.div`
             left: 40px;
             padding-bottom: 5px;
         }
+
+        @media(min-width: 641px) and (max-width: 1023px) {
+            height: 96%;
+        }
     `
 
     export const Form1 = styled.div`
@@ -101,6 +105,10 @@ export const Div = styled.div`
     }
 
     @media(max-width: 640px) {
+        margin-bottom: 2%;
+    }
+
+    @media(min-width: 641px) and (max-width: 1023px) {
         margin-bottom: 2%;
     }
     `

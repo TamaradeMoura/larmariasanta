@@ -14,6 +14,12 @@ export const Informacao = styled.div`
         text-decoration: underline;
         text-underline-offset: 5px;
         margin-left: 25%;
+    }
+
+    @media(min-width: 641px) and (max-width: 1023px) {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        margin-left: 5%;
 ` 
 
 export const RowInfos =styled.div`
@@ -28,6 +34,9 @@ export const RowInfos =styled.div`
         flex-direction: column;
         align-items: center;
     }
+
+    @media(min-width: 641px) and (max-width: 1023px) {
+        margin-left: 1%;
 `
 
 export const CardInfos = styled.div`
@@ -44,6 +53,10 @@ export const CardInfos = styled.div`
         width: 300px;
         height: 560px;  
     }
+
+    @media(min-width: 641px) and (max-width: 1023px) {
+        width: 550px;
+        height: 650px;
 `
 
 export const CardTitle = styled.div`
@@ -114,6 +127,11 @@ export const CardElement = styled.div`
             padding: 5px 5px;
             width: 150px;
         }
+
+        @media(min-width: 641px) and (max-width: 1023px) {
+            width: 160px;
+            height: 50px;
+            padding: 5px 5px;
     }
      
     Button:hover {
@@ -138,6 +156,16 @@ export const Contact = styled.div`
         flex-direction: column;
         align-items: center;
     }
+
+    @media(min-width: 641px) and (max-width: 1023px) {
+        margin-left: 1%;
+
+        .title-contact {
+            margin-left: 20px;
+            margin-top: 2px;
+            text-underline-offset: 5px;
+
+        }
 `
 
 export const ContactInfos = styled.div`
@@ -165,6 +193,10 @@ export const Button1 = styled.button`
         @media(max-width: 640px) {
             width: 50px;
         }
+
+        @media(min-width: 641px) and (max-width: 1023px) {
+            width: 50px;
+        }
 `
 
 export const Infos2 = styled.div`
@@ -180,6 +212,10 @@ export const Infos2 = styled.div`
         margin-top: 40px;
         margin-left: 25%;
     }
+
+    @media(min-width: 641px) and (max-width: 1023px) {
+        margin-left: 5%;
+    }
 `
 
 export const RowForm = styled.div`
@@ -188,6 +224,10 @@ export const RowForm = styled.div`
     margin-left: 5%;
 
     @media(max-width: 640px) {
+        margin-left: 1%;
+    }
+
+    @media(min-width: 641px) and (max-width: 1023px) {
         margin-left: 1%;
     }
 
@@ -200,6 +240,10 @@ export const RowForm = styled.div`
         width: 700px;
         height: 100px;
         box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+
+        @media(min-width: 641px) and (max-width: 1023px) {
+            width: 400px;
+        }
     }
 
     .btn3{

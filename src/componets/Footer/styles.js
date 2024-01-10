@@ -17,6 +17,10 @@ export const Rodape = styled.div`
             display: block;
             margin-left: 2%;
         }
+
+        @media(min-width: 641px) and (max-width: 1023px) {
+            margin-left: 5%;
+        }
     }
 
     @media(max-width: 640px) {

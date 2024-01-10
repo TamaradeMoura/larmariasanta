@@ -12,11 +12,13 @@ export const Cabecalho = styled.header`
     padding-bottom: 5px;
 
     @media (max-width: 640px) {
-        display: block;   
+        display: block;
+        position: relative;
     }
 
     @media (min-width: 641px) and (max-width: 1023px) {
         display: block;
+        position: relative;
         
     }
 
