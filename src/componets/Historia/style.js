@@ -51,46 +51,43 @@ export const Frente = styled.div`
 export const Historia = styled.div`
     padding-left: 5%;
 
-    @media (min-width: 641px) and (max-width: 1023px) {
-        display: block;
-         h1 {
-            text-align: center;
-            padding-top: 15px;
-         } 
-
-        p {
-            text-align: center;
-            padding-top: 25px;
-        }
     
-        h1 {
+    h1 {
         font-family: 'Roboto Slab', serif;
         text-decoration: underline;
         text-underline-offset: 15px;
         font-size: 30px;
         color: #361b1b;
-
+    }
+    
     p {
         width: 50%;
         margin-top: 5%;
-        text-align: justify;
     }
-
-    
-}
-
     @media(max-width: 640px) {
         h1 { 
             margin-left: 16%;
         }
-
+        
         p {
             margin-left: 20%;
         }       
-`
-
-export const Button2 = styled.button`
-    border-radius: 20px;
+        
+        @media (min-width: 641px) and (max-width: 1023px) {
+            display: block;
+             h1 {
+                text-align: center;
+                padding-top: 15px;
+             } 
+    
+            p {
+                text-align: center;
+                padding-top: 25px;
+            }
+        `
+        
+        export const Button2 = styled.button`
+        border-radius: 20px;
     padding: 10px 20px;
     margin-top: 2%;
     margin-left: 5px;
