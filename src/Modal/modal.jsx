@@ -31,7 +31,7 @@ export default function Modal1({isOpen, setModalOpen}) {
     function sendEmail(e){
         e.preventDefault();
         
-        if(name === '' || email === '' || exp1 === '' || exp2 === '' || exp3 === '' || exp4 === '' || phone === '' || vaga === '' || date === '' || school === '' || peri1 === '' || peri2 === '' || peri3 === '' || peri4 === '' || end === '' || message1 === '' || message2 === '' || message3 === '' || message4 === '' || message5 === ''){
+        if(name === '' || email === '' || exp1 === '' || phone === '' || vaga === '' || date === '' || school === '' || peri1 === '' ||  end === '' || message1 === '' ||  message5 === ''){
             alert("Preencha todos os campos");
             return;
         }
