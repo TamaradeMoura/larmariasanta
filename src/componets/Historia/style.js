@@ -65,6 +65,8 @@ export const Historia = styled.div`
             margin-left: auto;
             margin-right: auto;
         }
+
+    }
     
     h1 {
         font-family: 'Roboto Slab', serif;
