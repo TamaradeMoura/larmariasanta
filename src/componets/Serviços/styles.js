@@ -39,21 +39,30 @@ export const Titulo = styled.div`
 
 export const ServicosGrid = styled.div`
     display: grid;
-    justify-content: space-evenly;
-    aling-items: start;
-    justify-items: center;
-    grid-template-columns: 70px 70px 70px;
-    column-gap: 15px;
+    justify-content: center;
     row-gap: 15px;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 150px 150px 150px;
+    justify-items: center;
+    align-items: center;
     padding-top: 7%;
     padding-bottom: 10%;
+
+    .icons2 {
+        padding-left: 32px;
+    }
+
+    @media(max-width: 640px) {
+        grid-template-columns: repeat(2, 1fr) ;
+
 `
 
 export const Animation = styled.div`
     .servicos-text {
-    font-size: 20px;
-    color: #fff;
-    font-family: 'Roboto Slab', serif;
+        display: grid;
+        font-size: 20px;
+        color: #fff;
+        font-family: 'Roboto Slab', serif;
     }
 
     color: #ccae62;

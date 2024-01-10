@@ -15,6 +15,11 @@ export const Cabecalho = styled.header`
         display: block;   
     }
 
+    @media (min-width: 641px) and (max-width: 1023px) {
+        display: block;
+        
+    }
+
     h1 {
         color: #fff;
         font-size: 20px;
@@ -25,6 +30,12 @@ export const Cabecalho = styled.header`
             display: block;
             margin-left: 25%;
         }
+
+        @media (min-width: 641px) and (max-width: 1023px) {
+            font-size: 16px;
+            display: block;
+            margin-left: 30%;
+        }
     }
 
     h2 {
@@ -34,6 +45,10 @@ export const Cabecalho = styled.header`
 
         @media (max-width: 640px) {
             margin-left: 15%;
+        }
+
+        @media (min-width: 641px) and (max-width: 1023px) {
+            margin-left: 35%;
         }
     }
 `
@@ -47,6 +62,10 @@ export const BotaoModal2 = styled.button`
     
     @media (max-width: 640px) {
         margin-left: 31%;
+    }
+
+    @media (min-width: 641px) and (max-width: 1023px) {
+        margin-left: 44%;
     }
 
 `

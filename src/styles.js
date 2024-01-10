@@ -14,6 +14,11 @@ import { createGlobalStyle } from "styled-components";
         }
     }
 
+    .container {
+        width: 1024px;
+        max-width: 100%;
+    }
+
     .inner {
         display: flex;
     }

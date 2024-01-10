@@ -20,6 +20,17 @@ export const Frente = styled.div`
             margin-left: 0;
         }
     }
+    
+    @media (min-width: 641px) and (max-width: 1023px) {
+            display: block;
+            margin: 0 10px 0 30px;  
+
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+    }
 
     animation: appear 6s ease-in-out;
     animation-timeline: view();
@@ -40,19 +51,33 @@ export const Frente = styled.div`
 export const Historia = styled.div`
     padding-left: 5%;
 
-    h1 {
+    @media (min-width: 641px) and (max-width: 1023px) {
+        display: block;
+         h1 {
+            text-align: center;
+            padding-top: 15px;
+         } 
+
+        p {
+            text-align: center;
+            padding-top: 25px;
+        }
+    
+        h1 {
         font-family: 'Roboto Slab', serif;
         text-decoration: underline;
         text-underline-offset: 15px;
         font-size: 30px;
         color: #361b1b;
-    }
 
     p {
         width: 50%;
         margin-top: 5%;
         text-align: justify;
     }
+
+    
+}
 
     @media(max-width: 640px) {
         h1 { 
@@ -61,8 +86,7 @@ export const Historia = styled.div`
 
         p {
             margin-left: 20%;
-        }
-    
+        }       
 `
 
 export const Button2 = styled.button`
@@ -84,4 +108,12 @@ export const Button2 = styled.button`
         width: 90%;
         height: 90%;
         margin-left: 5%;
+
+    }
+
+    @media (min-width: 641px) and (max-width: 1023px) {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+}
    `

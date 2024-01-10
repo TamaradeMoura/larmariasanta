@@ -12,7 +12,7 @@ return (
                 <CardHero>
                 <FontAwesomeIcon icon={faUsers} size='3x' transform='right-47' className='icons' />
                 <h2>Equipe Especializada</h2>
-                <p>Conheça nossa Equipe Multidisciplinar composta por cuidadores e técnicos preparados, Nutricionista, Fisioterapeuta e Médico. </p>
+                <p>Conheça nossa Equipe Multidisciplinar composta por cuidadores e técnicos preparados, Nutricionista, Enfermeiro e Médico. </p>
             </CardHero>
             <CardHero>
             <FontAwesomeIcon icon={faHandHoldingMedical} size='3x' transform='right-47' className='icons' />

@@ -84,6 +84,10 @@ export const Buttons = styled.div`
         padding-bottom: 5%;
     }
 
+    @media (min-width: 641px) and (max-width: 1024px) {
+        padding-left: 37%;
+    }
+
     animation: appear 2s ease-in-out;
     animation-timeline: view();
     animation-range: cover 0% cover 10%;
@@ -132,8 +136,8 @@ export const Frame = styled.iframe`
 
     @media (min-width: 641px) and (max-width: 1024px) {
         position: static;
-        width: 120px; 
-        height: 200px;
+        width: 600px; 
+        height: 350px;
     }
 
     animation: appear 2s ease-in-out;

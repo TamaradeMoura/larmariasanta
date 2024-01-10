@@ -13,7 +13,6 @@ export const HeroDiv = styled.div`
         margin-top: -110%;
         
         }
-        
     }
 `
 
@@ -36,6 +35,10 @@ export const CardHero = styled.div`
         color:  #361b1b;
         font-family: 'Roboto Slab', serif;
         color:  #361b1b;
+
+        @media(min-width: 641px) and (max-width: 1023px) {
+            font-size: 20px;
+            }
     }
 
     p {
@@ -46,6 +49,10 @@ export const CardHero = styled.div`
         color:  #361b1b;
         font-family: 'Roboto Slab', serif;
         font-weight: 300;
+
+        @media(min-width: 641px) and (max-width: 1023px) {
+            font-size: 14px;
+            }
     }
 
     .icons {
@@ -55,13 +62,23 @@ export const CardHero = styled.div`
             position: relative;
             right: 50px;
             }
+
+        @media(min-width: 641px) and (max-width: 1023px) {
+            position: relative;
+            right: 84px;
+            }
     }
 
     @media(max-width: 640px) {
         width: 80%;
-        height: 50%;
+        height: 100%;
         margin-left: 44px;
-        margin-top: 20px;
+        margin-top: 10%;
+        }
+
+    @media(min-width: 641px) and (max-width: 1023px) {
+        width: 90%;
+        margin-left: 15px;
         }
 
     animation: appear -6s ease-in-out;
@@ -95,4 +112,8 @@ export const Img = styled.div`
         background-size: 500px 500px;
         margin-top: -110px;
     }
+
+    @media(min-width: 641px) and (max-width: 1023px) {
+        background-position: -105px 25px;
+        }
 `

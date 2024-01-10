@@ -26,6 +26,10 @@ export const HeaderLinks = styled.ul`
         @media(max-width: 640px) {
             padding-top: 5px;
         }
+
+        @media(min-width: 641px) and (max-width: 1023px) {
+            padding-top: 45px;
+        }
     }
     
     @media(max-width: 640px) {
@@ -44,6 +48,10 @@ export const IgmLogo = styled.img`
     @media(max-width: 640px) {
        visibility: hidden;
     }
+
+    @media(min-width: 641px) and (max-width: 1023px) {
+        width: 100px;
+     }
 `
 
 export const DivBotao = styled.div`

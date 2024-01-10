@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import FrenteLar from './images/lar.jpg';
+import FrenteLar from './images/entrada.jpg';
 import {  Button2, Frente, Historia } from './style';
 
 

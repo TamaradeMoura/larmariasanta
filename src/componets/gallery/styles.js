@@ -28,6 +28,17 @@ export const Galeria = styled.div`
 
     }
 
+    @media (min-width: 641px) and (max-width: 1023px) {
+        display: grid;
+        grid-template-columns: 340px 340px; 
+        gap: 15px;
+        margin: 0 10px 0 5px;
+
+        img {
+            margin-left: -5px;
+        }
+    }
+
 
     animation: appear 6s ease-in-out;
     animation-timeline: view();
