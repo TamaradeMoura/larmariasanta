@@ -14,17 +14,17 @@ import quadruplo1 from './images/quadruplo1.jpg';
 import quadruplo2 from './images/quadruplo2.jpg';
 import quadruplo3 from './images/quadruplo3.jpg';
 import { useState } from 'react';
-import Modal from "./modals/modal1";
+import Modal from "./modal3";
 
 
 function Gallery() {
-    const [openModal, setOpenModal] = useState(false)
+    const [openModal3, setOpenModal3] = useState(false)
 
     return (
         <section>
-            <Modal isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)} />
+            <Modal isOpen={openModal3} setModalOpen={() => setOpenModal3(!openModal3)} />
         <Galeria>
-            <img onClick={() => setOpenModal(true)} src={sala1} alt='sala de estar'></img>
+            <img onClick={() => setOpenModal3(true)} src={sala1} alt='sala de estar'></img>
             <img src={sala2} alt='sala de estar'></img>
             <img src={sala3} alt='sala de estar'></img>
             <img src={quadruplo1} alt='quarto quadruplo'></img>

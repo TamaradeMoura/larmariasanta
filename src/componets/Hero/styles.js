@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import background from './images/capa-header.jpg';
+import background from './images/capa-header2.jpg';
 
 
 export const HeroDiv = styled.div`
