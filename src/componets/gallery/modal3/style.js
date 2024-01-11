@@ -24,11 +24,11 @@ z-index: 2;
 
         .item {
             margin-top: 5%;
-            padding: 20px 20px;
+            padding: 10px 20px;
 
             img {
-                width: 650px;
-                height: 520px;
+                width: 750px;
+                height: 620px;
                 pointer-events: none;
             }
         }
