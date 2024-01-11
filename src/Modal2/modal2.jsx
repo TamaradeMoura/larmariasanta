@@ -16,6 +16,8 @@ export default function Modal2({isOpen, setModalOpen}) {
         if(name === '' || email === '' || phone === '' || message === ''){
             alert("Preencha todos os campos");
             return;
+        } else {
+            alert("Mensagem Recebida!")
         }
 
         const templateParams = {

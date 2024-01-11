@@ -34,6 +34,8 @@ export default function Modal1({isOpen, setModalOpen}) {
         if(name === '' || email === '' || exp1 === '' || phone === '' || vaga === '' || date === '' || school === '' || peri1 === '' ||  end === '' || message1 === '' ||  message5 === ''){
             alert("Preencha todos os campos");
             return;
+        } else {
+            alert("Currículo recebido!");
         }
 
         const templateParams = {
