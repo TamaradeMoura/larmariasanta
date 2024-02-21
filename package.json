@@ -36,5 +36,9 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "vite": "^4.4.5"
-  }
+  },
+  "description": "Site de lar de idosos em desenvolvimento\r Trasição do Css file para Js file com styledComponents\r Criação de funcionalidades com React\r Previsão de conclusão final de dezembro de 2023",
+  "main": "babel-plugin-macros.config.js",
+  "author": "",
+  "license": "ISC"
 }

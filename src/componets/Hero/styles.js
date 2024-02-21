@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import background from './images/capa-header2.jpg';
 
 
 export const HeroDiv = styled.div`
@@ -100,7 +99,7 @@ export const CardHero = styled.div`
 `
 
 export const Img = styled.div`
-    background-image: url(${background});
+    background-image: url("https://servidor-estatico3-lilac.vercel.app/capa-header2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 30px;
